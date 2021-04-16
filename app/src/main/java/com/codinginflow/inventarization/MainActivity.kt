@@ -2,6 +2,7 @@ package com.codinginflow.inventarization
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import androidx.appcompat.app.AppCompatDelegate
 import androidx.fragment.app.Fragment
 import com.codinginflow.inventarization.features.invt.InventarListFragment
 import com.codinginflow.inventarization.features.scan.ScanFragment
@@ -49,6 +50,7 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         binding = ActivityMainBinding.inflate(layoutInflater)
+        AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_YES)
         setContentView(binding.root)
 
         if (savedInstanceState == null) {

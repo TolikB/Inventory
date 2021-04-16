@@ -3,4 +3,7 @@
 <item
     android:id="@+id/startNew"
     android:title="Очистити результати"/>
+    <item
+    android:id="@+id/newFile"
+    android:title="Загрузити свій файл Інвентаризації"/>
 </menu>

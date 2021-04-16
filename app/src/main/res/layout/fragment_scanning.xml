@@ -29,11 +29,12 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_margin="8dp"
+                android:layout_marginTop="8dp"
                 android:text="ID: "
                 android:textColor="#C8C8C8"
                 android:textSize="18sp"
-                android:textStyle="bold"
 
+                android:textStyle="bold"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
 
@@ -55,22 +56,26 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_margin="8dp"
+                android:layout_marginTop="16dp"
                 android:text="Назва: "
                 android:textColor="#C8C8C8"
-                android:textSize="18sp"
 
+                android:textSize="18sp"
                 android:textStyle="bold"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/textView" />
 
-            <TextView
+            <EditText
                 android:id="@+id/nameId"
-                android:layout_width="wrap_content"
+                android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_margin="8dp"
+
+                android:maxLines="1"
                 android:textColor="#C8C8C8"
                 android:textSize="18sp"
                 app:layout_constraintBottom_toBottomOf="@+id/textView2"
+                app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toEndOf="@+id/textView2"
                 app:layout_constraintTop_toTopOf="@+id/textView2"
                 tools:text="sdfsfsdafasdf" />
@@ -80,11 +85,12 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_margin="8dp"
+                android:layout_marginTop="16dp"
                 android:text="Користувач: "
                 android:textColor="#C8C8C8"
                 android:textSize="18sp"
-                android:textStyle="bold"
 
+                android:textStyle="bold"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/textView2" />
 
@@ -108,23 +114,27 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_margin="8dp"
+                android:layout_marginTop="16dp"
                 android:text="Вiддiл: "
                 android:textColor="#C8C8C8"
-                android:textSize="18sp"
 
+                android:textSize="18sp"
                 android:textStyle="bold"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/textView3" />
 
-            <TextView
+            <EditText
                 android:id="@+id/otdelId"
-                android:layout_width="wrap_content"
+                android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_margin="8dp"
                 android:layout_marginStart="20dp"
                 android:textColor="#C8C8C8"
                 android:textSize="18sp"
+                android:maxLines="1"
+
                 app:layout_constraintBottom_toBottomOf="@+id/textView4"
+                app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toEndOf="@+id/textView4"
                 app:layout_constraintTop_toTopOf="@+id/textView4"
                 tools:text="asfdsfgsdfgsdfg" />
@@ -136,6 +146,7 @@
                 android:layout_height="wrap_content"
                 android:layout_margin="8dp"
 
+                android:layout_marginTop="16dp"
                 android:text="Департамент: "
                 android:textColor="#C8C8C8"
                 android:textSize="18sp"
@@ -143,14 +154,17 @@
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/textView4" />
 
-            <TextView
+            <EditText
                 android:id="@+id/departmantId"
-                android:layout_width="wrap_content"
+                android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_margin="8dp"
                 android:textColor="#C8C8C8"
+                android:maxLines="1"
+
                 android:textSize="18sp"
                 app:layout_constraintBottom_toBottomOf="@+id/textView5"
+                app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toEndOf="@+id/textView5"
                 app:layout_constraintTop_toTopOf="@+id/textView5"
                 tools:text="sdfasfdasdfasdf" />
